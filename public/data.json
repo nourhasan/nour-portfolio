@@ -1,0 +1,116 @@
+{
+  "dp": "/avatar.jpg",
+  "name": "Nour Hasan",
+  "role": "Full-stack Software Engineer",
+  "objective": "Full-stack Software Engineer with 7+ years of experience in developing scalable, high-performance web applications. Expert in cloud technologies, microservices, and Agile methodologies. Proven ability to lead development teams, deliver innovative solutions, and work effectively with international clients. Passionate about software engineering and continuously improving technical skills.",
+  "contact": {
+    "email": "engnourhasan@gmail.com",
+    "location": "Dhaka, Bangladesh",
+    "linkedin": "https://linkedin.com/in/nourhasan",
+    "github": "https://github.com/nourhasan"
+  },
+  "experience": [
+    {
+      "company": "Tech Solutions Ltd.",
+      "role": "Senior Software Engineer",
+      "duration": "04/2021 - Present",
+      "location": "Dhaka, Bangladesh",
+      "responsibilities": [
+        "Lead development of enterprise-level applications for global clients",
+        "Architected and implemented microservices and RESTful APIs using .NET Core, React.js, and Azure cloud services",
+        "Led a team of developers and mentored junior engineers in technical skills and best practices",
+        "Collaborated with international teams to align project goals and deliver solutions on time",
+        "Responsible for maintaining CI/CD pipelines and ensuring code quality through automated testing and code reviews"
+      ]
+    },
+    {
+      "company": "Digital Innovations Inc.",
+      "role": "Assistant Team Lead",
+      "duration": "04/2018 - 04/2021",
+      "location": "Dhaka, Bangladesh",
+      "responsibilities": [
+        "Developed modern applications using C#, PHP, JavaScript, and SQL-based databases (MS SQL Server, MySQL)",
+        "Led the development of a robust upgraded application, coordinating tasks between team members and ensuring timely delivery",
+        "Integrated payment gateway solutions and developed web services for external systems",
+        "Administered Linux CentOS servers and ensured application performance and security"
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "ASP.NET Core/WebAPI/MVC/Webform",
+      "Laravel",
+      "CodeIgniter",
+      "Outsystems",
+      "Node.JS",
+      "Kendo",
+      "React JS",
+      "Vue JS",
+      "C#",
+      "PHP",
+      "Java",
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "jQuery",
+      "Html & Css",
+      "OOP",
+      "Data Structures",
+      "Algorithms",
+      "SOLID",
+      "Design Patterns",
+      "RESTful API",
+      "Microservice",
+      "Git",
+      "MS SQL Server",
+      "MySQL",
+      "Oracle",
+      "PgSQL",
+      "JIRA",
+      "Microsoft Azure",
+      "Azure Function",
+      "Azure Event Grid",
+      "CI/CD Pipeline"
+    ],
+    "personal": [
+      "Experience in leading projects, initiatives and/or teams, with full ownership of the systems involved",
+      "Experience with Scrum/Agile development methodologies and building large-scale distributed products",
+      "Passionate about software development and constantly work to improve knowledge and skills",
+      "Strong Coding Ability and Good understanding of algorithms and data structures",
+      "Excellent verbal and written English communication skills"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science",
+      "field": "Computer Science and Engineering"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Clinical Trial Management System",
+      "description": "Led a team to develop and enhance a system used by clinical trial professionals for managing patient data and study progress."
+    },
+    {
+      "title": "Enterprise Application Development",
+      "description": "Developed a mission-critical web application for managing the logistics of sensitive products across various geographies."
+    },
+    {
+      "title": "Government Project Solutions",
+      "description": "Worked on government projects as Software Engineer & Team Lead, delivering enterprise-level solutions."
+    }
+  ],
+  "certifications": [
+    "Associative Reactive Developer - An official certification from OutSystems"
+  ],
+  "languages": [
+    {
+      "name": "Bengali",
+      "proficiency": "Native or Bilingual Proficiency"
+    },
+    {
+      "name": "English",
+      "proficiency": "Full Professional Proficiency"
+    }
+  ]
+}

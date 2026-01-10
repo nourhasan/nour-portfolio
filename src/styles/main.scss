@@ -1,0 +1,210 @@
+@use 'variables' as *;
+@use 'mixins';
+@use 'themes';
+@use 'base';
+
+// Card Styles
+.card,
+.experience-card,
+.project-card,
+.education-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: $radius-lg;
+  padding: $spacing-lg;
+  transition: $transition;
+  box-shadow: 0 4px 6px var(--shadow);
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px var(--shadow-hover);
+  }
+}
+
+// Theme Toggle Button
+.theme-toggle {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px var(--shadow);
+  transition: $transition;
+  z-index: 1000;
+  border: 2px solid var(--primary);
+  background: var(--card-bg);
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px var(--shadow-hover);
+  }
+
+  svg {
+    transition: $transition;
+  }
+}
+
+// Header Section
+.header-section {
+  text-align: center;
+  padding: $spacing-xl 0;
+  margin-bottom: $spacing-xl;
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--primary);
+    box-shadow: 0 8px 16px var(--shadow);
+    transition: $transition;
+    object-fit: cover;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px var(--shadow-hover);
+    }
+  }
+
+  .role {
+    font-size: 1.5rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-top: $spacing-sm;
+  }
+}
+
+// Skills Section
+.skill-badge {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  color: white;
+  border-radius: $radius;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: $transition-fast;
+  box-shadow: 0 2px 4px var(--shadow);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow-hover);
+  }
+}
+
+// Experience Timeline
+.experience-item {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: $spacing-lg;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 12px;
+    height: 12px;
+    background: var(--primary);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--card-bg), 0 0 0 6px var(--primary);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    width: 2px;
+    height: calc(100% + 1rem);
+    background: linear-gradient(180deg, var(--primary), transparent);
+  }
+
+  &:last-child::after {
+    display: none;
+  }
+}
+
+// Responsive Container
+.portfolio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+
+  @media (min-width: 768px) {
+    padding: 3rem 2rem;
+  }
+}
+
+// Contact Links
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-md;
+  margin-top: $spacing-md;
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: $radius;
+    transition: $transition-fast;
+
+    &:hover {
+      transform: translateX(4px);
+      border-color: var(--primary);
+    }
+  }
+}
+
+// Animations
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+// Divider
+.section-divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--primary), transparent);
+  margin: $spacing-xl 0;
+  opacity: 0.3;
+}
+
+// Responsive utilities
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: 1rem;
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+  }
+
+  .portfolio-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .header-section .avatar {
+    width: 120px;
+    height: 120px;
+  }
+}
+
