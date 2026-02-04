@@ -1,8 +1,8 @@
 {
   "dp": "./avatar.jpg",
   "name": "Nour Hasan",
-  "role": "Full-stack Software Engineer",
-  "objective": "Full-stack Software Engineer with 7+ years of experience in developing scalable, high-performance web applications. Expert in cloud technologies, microservices, and Agile methodologies. Proven ability to lead development teams, deliver innovative solutions, and work effectively with international clients. Passionate about software engineering and continuously improving technical skills.",
+  "role": "Senior Software Engineer",
+  "objective": "Full-Stack Software Engineer specializing in Event-Driven Architecture and high-performance Microservices. Proven track record in transitioning monolithic systems to scalable cloud environments using .NET Core and Azure. Expert in leading international teams and mentoring talent within Agile frameworks, committed to engineering excellence through CI/CD and SOLID principles.",
   "contact": {
     "email": "engnourhasan@gmail.com",
     "location": "Dhaka, Bangladesh",
@@ -11,16 +11,15 @@
   },
   "experience": [
     {
-      "company": "Relisource",
+      "company": "ReliSource",
       "role": "Senior Software Engineer",
       "duration": "04/2021 - Present",
       "location": "Dhaka, Bangladesh",
       "responsibilities": [
-        "Lead development of enterprise-level applications for global clients",
-        "Architected and implemented microservices and RESTful APIs using .NET Core, React.js, and Azure cloud services",
-        "Led a team of developers and mentored junior engineers in technical skills and best practices",
-        "Collaborated with international teams to align project goals and deliver solutions on time",
-        "Responsible for maintaining CI/CD pipelines and ensuring code quality through automated testing and code reviews"
+        "Architected and deployed enterprise-level Microservices and RESTful APIs using .NET Core and Azure, improving system scalability for global clients",
+        "Implemented Event-Driven workflows utilizing Azure Event Grid and Azure Functions to enhance system responsiveness and decoupling",
+        "Modernized DevOps workflows by maintaining CI/CD pipelines, reducing deployment errors through automated testing and peer code reviews",
+        "Directed a team of developers, providing technical mentorship and aligning project milestones with international stakeholder requirements"
       ]
     },
     {
@@ -29,55 +28,44 @@
       "duration": "04/2018 - 04/2021",
       "location": "Dhaka, Bangladesh",
       "responsibilities": [
-        "Developed modern applications using C#, PHP, JavaScript, and SQL-based databases (MS SQL Server, MySQL)",
-        "Led the development of a robust upgraded application, coordinating tasks between team members and ensuring timely delivery",
-        "Integrated payment gateway solutions and developed web services for external systems",
-        "Administered Linux CentOS servers and ensured application performance and security"
+        "Spearheaded the development of modern full-stack applications using .NET, Laravel, Vue, and MS SQL Server",
+        "Designed database schemas and optimized complex queries, significantly reducing data retrieval times for large-scale enterprise databases",
+        "Engineered mission-critical integrations, including secure payment gateways and third-party web services",
+        "Managed Linux CentOS server environments, hardening security protocols and optimizing application performance"
       ]
     }
   ],
   "skills": {
     "technical": [
+      "Microservice / Event-Driven Architecture",
       "ASP.NET Core/WebAPI/MVC/Webform",
       "Laravel",
       "CodeIgniter",
       "Outsystems",
       "Node.JS",
       "Kendo",
-      "React JS",
-      "Vue JS",
+      "Angular",
+      "Next/React",
+      "Vue",
       "C#",
       "PHP",
       "Java",
       "Python",
-      "JavaScript",
-      "TypeScript",
-      "jQuery",
+      "TypeScript/JavaScript/jQuery",
       "Html & Css",
-      "OOP",
-      "Data Structures",
-      "Algorithms",
-      "SOLID",
-      "Design Patterns",
       "RESTful API",
-      "Microservice",
+      "OOP / Data Structures / Algorithms",
+      "Design Patterns / SOLID",
       "Git",
-      "MS SQL Server",
-      "MySQL",
-      "Oracle",
-      "PgSQL",
       "JIRA",
-      "Microsoft Azure",
-      "Azure Function",
-      "Azure Event Grid",
-      "CI/CD Pipeline"
+      "Microsoft Azure / Azure Function / Event Grid",
+      "MS SQL Server / MySQL / Oracle / PgSQL"
     ],
     "personal": [
-      "Experience in leading projects, initiatives and/or teams, with full ownership of the systems involved",
-      "Experience with Scrum/Agile development methodologies and building large-scale distributed products",
-      "Passionate about software development and constantly work to improve knowledge and skills",
-      "Strong Coding Ability and Good understanding of algorithms and data structures",
-      "Excellent verbal and written English communication skills"
+      "End-to-end ownership of systems and projects, with the ability to lead multiple complex initiatives in parallel",
+      "Expert in Scrum/Agile methodologies for distributed, cross-functional teams",
+      "Strong software engineering skills with deep understanding of design patterns, data structures, and algorithms, and a passion for continuous improvement",
+      "Excellent written and spoken English for effective international collaboration"
     ]
   },
   "education": [
@@ -89,19 +77,19 @@
   "projects": [
     {
       "title": "Clinical Trial Management System",
-      "description": "Led a team to develop and enhance a system used by clinical trial professionals for managing patient data and study progress."
+      "description": "Led end-to-end development of a high-compliance system for tracking patient data and study progress."
     },
     {
-      "title": "Enterprise Application Development",
-      "description": "Developed a mission-critical web application for managing the logistics of sensitive products across various geographies."
+      "title": "Cold Chain Enterprise Logistics",
+      "description": "Developed a mission-critical web application to manage sensitive product logistics across diverse geographies."
     },
     {
-      "title": "Government Project Solutions",
-      "description": "Worked on government projects as Software Engineer & Team Lead, delivering enterprise-level solutions."
+      "title": "Government Solutions",
+      "description": "Delivered high-security enterprise solutions for government sectors, acting as Software Engineer and Team Lead."
     }
   ],
   "certifications": [
-    "Associative Reactive Developer - An official certification from OutSystems"
+    "Associative Reactive Developer - An official certification from OutSystems (Low Code Platform)"
   ],
   "languages": [
     {
